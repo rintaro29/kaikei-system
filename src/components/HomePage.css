@@ -1,0 +1,29 @@
+.homePageTitle {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.homePage {
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.yearSelector {
+  display: flex;
+  align-items: center;
+}
+
+.yearSelector label {
+  margin-right: 10px;
+}
+
+.yearSelector select {
+  padding: 5px;
+  font-size: 16px;
+}

@@ -1,0 +1,53 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between; /* Added */
+  background-color: #282d49;
+  z-index: 2;
+  position: relative;
+  height: 70px;
+}
+/* Sidebar.css */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: calc(100vh - 70px); /* Updated, set 70px to your header's height */
+  position: fixed; /* Keep this line */
+  left: 0;
+  top: 70px; /* Added, set this to your header's height */
+  background-color: #282d49;
+  overflow: auto;
+  padding: 20px;
+  z-index: 1; /* Keep this line */
+}
+.rcc {
+  display: flex;
+}
+.headerSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.favicon img {
+  width: 50px;
+  height: 50px;
+}
+.headerRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 40px;
+}
+
+.headerRight img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.title {
+  color: white;
+}

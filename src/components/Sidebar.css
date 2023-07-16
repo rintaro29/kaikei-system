@@ -1,0 +1,45 @@
+/* Sidebar.css */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: calc(100vh - 70px); /* Adjust this value according to your header's height */
+  position: absolute; /* Updated */
+  left: 0;
+  background-color: #282d49;
+  overflow: auto;
+  padding: 20px;
+  z-index: 1;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar nav ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar nav ul li:hover {
+  background-color: #b4a6d5; /* Hover background color */
+}
+
+.home a,
+.apply a,
+.money a,
+.setting a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.mui-icon {
+  color: #fff;
+  margin-right: 10px;
+}
